@@ -213,4 +213,6 @@
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
 
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>

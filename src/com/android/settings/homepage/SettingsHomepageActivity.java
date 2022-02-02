@@ -115,11 +115,20 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     static ArrayList<String> welcome=new ArrayList<>();
     static {
         welcome.add("Settings");
+        welcome.add("Bonjour.");
+        welcome.add("こんにちは.");
         welcome.add("Hello.");
+        welcome.add("Kamusta?");
+        welcome.add("Howdy?");
+        welcome.add("Привет.");
         welcome.add("Hola.");
         welcome.add("Halo.");
+        welcome.add("नमस्ते.");
+        welcome.add("안녕하세요.");
         welcome.add("Ciao.");
-        welcome.add("Welcome.");
+        welcome.add("你好.");
+        welcome.add("مرحبا.");
+        welcome.add("Hallo.");
     }
     
     @Override

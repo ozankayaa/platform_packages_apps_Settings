@@ -67,8 +67,7 @@
     <!-- About ProjectArcana -->
     <string name="arcana_about_info">What is Project Arcana?</string>
     <string name="arcana_about_summary">Welcome to the Arcanery.</string>
-    <string name="arcana_about_info_summary">Project Arcana is a simple custom android OS fueled by AOSPExtended that aims to be simple yet cunning. Project Arcana aims to provides necessary customizations that are needed for users\' everyday life, from network traffic indicator down to everyone\'s favorite icon styles, Project Arcana promises to deliver these features out-of-the-box. While also promising to be simple, Project Arcana tries to be aesthetic without making its users go through a lot 
-  of UI/UX configurations. We are fans of simplicity. We strive to keep the ROM bloatfree and fast. &#35;NeverForget</string>
+    <string name="arcana_about_info_summary">A custom mobile phone operating system based on Android Open Source Project focused on improving user experience, with a little bit of spice. &#35;NeverForget</string>
     <string name="dev_info">About Project Arcana</string>
     <string name="github">Github</string>
     <string name="github_description">View our source code</string>

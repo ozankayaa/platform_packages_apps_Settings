@@ -43,12 +43,13 @@
         android:fragment="com.android.settings.preferences.game.DanmakuSettings"
         android:dependency="gaming_mode_enabled" />
 
-    <Preference
+
+   <!-- <Preference
         android:key="gaming_mode_quick_start_apps"
         android:title="@string/gaming_mode_quick_start_apps_title" 
         android:summary="@string/gaming_mode_quick_start_apps_summary"
         android:fragment="com.android.settings.preferences.game.QuickStartAppSettings"
-        android:dependency="gaming_mode_enabled" />
+        android:dependency="gaming_mode_enabled" /> -->
 
     <PreferenceCategory
         android:key="performance_category"

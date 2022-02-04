@@ -43,7 +43,14 @@
         android:fragment="com.android.settings.preferences.game.DanmakuSettings"
         android:dependency="gaming_mode_enabled" />
 
-
+    <org.aospextended.support.preference.SystemSettingSeekBarPreference
+        android:key="gaming_mode_menu_opacity"
+        android:title="@string/gaming_mode_menu_opacity_title"
+        android:max="100"
+        settings:min="0"
+        android:defaultValue="75"
+        android:dependency="gaming_mode_enabled" />
+        
    <!-- <Preference
         android:key="gaming_mode_quick_start_apps"
         android:title="@string/gaming_mode_quick_start_apps_title" 

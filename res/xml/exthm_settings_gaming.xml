@@ -17,8 +17,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/gaming_title" >
 
+    <PreferenceCategory
+        android:key="arcana_main_category"
+        android:title="@string/gaming_mode_main">
+        
     <org.aospextended.support.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_enabled"
+        android:summary="@string/gaming_mode_enabled_summary"
         android:title="@string/gaming_mode_enabled_title"
         android:defaultValue="false" />
 
@@ -58,6 +63,8 @@
         android:fragment="com.android.settings.preferences.game.QuickStartAppSettings"
         android:dependency="gaming_mode_enabled" /> -->
 
+    </PreferenceCategory>
+    
     <PreferenceCategory
         android:key="performance_category"
         android:title="@string/gaming_mode_performance">

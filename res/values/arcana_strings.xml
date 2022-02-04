@@ -30,42 +30,42 @@
     <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
     <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
 
-    <!-- Arcana Gaming Space -->
-    <string name="gaming_title">Arcana Gaming Space</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
+    <!-- Arcana Game Space -->
+    <string name="gaming_title">Arcana Game Space</string>
+    <string name="profile_choose_app">Select application</string>
+    <string name="dialog_delete_title">Remove application</string>
     <string name="dialog_delete_message">Remove selected item?</string>
 
     <string name="add_package_to_title">Add application</string>
-    <string name="gaming_mode_enabled_title">Enable Arcana Gaming Space</string>
+    <string name="gaming_mode_enabled_title">Enable Arcana Game Space</string>
     <string name="gaming_mode_disable_auto_brightness_title">Disable automatic brightness</string>
-    <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering Arcana Gaming Space</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when Arcana Game Space is enabled</string>
     <string name="gaming_mode_notification_danmaku_title">Notification Danmaku</string>
-    <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in the game</string>
+    <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in-game</string>
     <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
     <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
 
-    <string name="gaming_mode_performance">Performance</string>
-    <string name="gaming_mode_use_game_driver_title">Enable Game driver</string>
-    <string name="gaming_mode_use_game_driver_summary">Use gaming drivers for games</string>
-    <string name="gaming_mode_change_performance_title">Performance levels</string>
-    <string name="gaming_mode_change_performance_summary">Improve gaming performance by levels(currently tuned for QCOM devices).</string>
-    <string name="gaming_mode_performance_title">Performance level</string>
+    <string name="gaming_mode_performance">Game Optimizations</string>
+    <string name="gaming_mode_use_game_driver_title">Use Game Graphic driver</string>
+    <string name="gaming_mode_use_game_driver_summary">Enable usage of gaming graphic drivers for selected apps under My Game Space.</string>
+    <string name="gaming_mode_change_performance_title">Game Optimization levels</string>
+    <string name="gaming_mode_change_performance_summary">Optimize CPU/GPU performance and throttling according to your needs (disclaimer: currently tuned for QCOM devices)</string>
+    <string name="gaming_mode_performance_title">Optimization level</string>
 
-    <string name="gaming_mode_dnd">Do not distrub</string>
+    <string name="gaming_mode_dnd">Notification Management</string>
     <string name="gaming_mode_disable_notification_alert_title">Disable notification alert</string>
     <string name="gaming_mode_disable_notification_alert_summary">Do not allow floating notification and conversation bubbles other than incoming calls and alarms</string>
     <string name="gaming_mode_disable_ringtone_title">No ringing</string>
-    <string name="gaming_mode_disable_ringtone_summary">Turn off the ringing of incoming calls and notifications in Arcana Gaming Space</string>
+    <string name="gaming_mode_disable_ringtone_summary">Turn off the ringing of incoming calls and notifications in Arcana Game Space</string>
     <string name="gaming_mode_auto_answer_call_title">Answering calls automatically</string>
     <string name="gaming_mode_auto_answer_call_summary">Answer calls automatically in the game and hands free when no headphones connected</string>
 
     <string name="gaming_mode_prevent_accidental_touch">Touch Controls</string>
     <string name="gaming_mode_disable_gesture_title">Disable gestures</string>
 
-    <string name="gaming_mode_apps">Game list</string>
+    <string name="gaming_mode_apps">My Game Space</string>
     <string name="gaming_mode_dynamic_add_title">Dynamic mode</string>
-    <string name="gaming_mode_dynamic_add_summary">Automatically detect and add gaming apps</string>
+    <string name="gaming_mode_dynamic_add_summary">Automatically detect and add applications</string>
 
     <string name="gaming_mode_show_danmaku_title">Show danmaku</string>
     <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Dynamic filtering notification</string>
@@ -77,8 +77,10 @@
     <string name="gaming_mode_danmaku_blacklist">Blacklist</string>
 
     <string name="gaming_mode_use_menu_overlay_title">Show menu overlay</string>
-    <string name="gaming_mode_use_menu_overlay_summary">Show menu overlay when game is running. If this option is disabled, some Arcana Gaming Space features will be disabled, such as Danmaku notifications</string>
+    <string name="gaming_mode_use_menu_overlay_summary">Show menu overlay when game is running. If this option is disabled, some Arcana Game Space features will be disabled, such as Danmaku notifications</string>
   <string name="gaming_mode_menu_opacity_title">Menu opacity level</string>
+  <string name="gaming_mode_enabled_summary">Improve Gaming Experience!</string>
+  <string name="gaming_mode_main">Arcana Game Space Settings</string>
 
     <string name="gesture_navbar_length_title">Gesture navbar length</string>
     <string name="short_label">Short</string>

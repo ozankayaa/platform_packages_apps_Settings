@@ -130,4 +130,7 @@
 
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
+    
+    <string name="gaming_mode_show_fpsinfo_title">Show FPS info</string>
+    <string name="gaming_mode_show_fpsinfo_summary">Show current FPS information</string>
 </resources>

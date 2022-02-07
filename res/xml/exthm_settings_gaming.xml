@@ -86,7 +86,7 @@
         <org.aospextended.support.preference.SystemSettingSeekBarPreference
             android:key="gaming_mode_performance_level"
             android:title="@string/gaming_mode_performance_title"
-            android:defaultValue="5"
+            android:defaultValue="6"
             android:max="6"
             settings:min="0"
             settings:units=""

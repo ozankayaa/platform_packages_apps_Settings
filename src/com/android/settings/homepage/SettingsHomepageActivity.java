@@ -60,14 +60,13 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 
     static ArrayList<String> text=new ArrayList<>();
     static {
-        text.add("Arise, Young One.");
+        text.add("Arise, Young one.");
 	text.add("Welcome Stranger!");
 	text.add("One's soul shreds uniqueness.");
         text.add("Calm down young one, catch your breath.");
         text.add("Roquelaire, would you like a cracker?");
         text.add("Ah my little friend, always busy-busy.");
         text.add("Ho ho! You found me!");
-        text.add("Greetings, my friend.");
         text.add("Welcome to the Secret Shop!");
         text.add("Ah, some tea while you wait?");
         text.add("Those go together nicely.");
@@ -82,7 +81,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         text.add("Business is brisk.");
         text.add("Ahh, hows your journey little one?");
         text.add("Mistakes are always part of one's life, youngster.");
-        text.add("Have a lucky day sire!");
+        text.add("Have a lucky day human!");
         text.add("You can do it Stranger!");
 	text.add("It was never wrong to try, young one.");
 	text.add("The learned one strikes.");
@@ -105,30 +104,26 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 	text.add("Fight and be remembered, or die and be forgotten.");
 	text.add("In case no one asked, are you doing fine youngster?");
 	text.add("Nothing bears fruit from hatred, but disaster my friend.");
-	text.add("Ahh Another day to become a legend.");
+	text.add("Another day to become a legend.");
 	text.add("In case no one told you this, you are awesome!");
 	text.add("My dear friend always busy, want some cookies?");
 	text.add("Uhmm Never Forget?");
 	text.add("Show em what you got stranger!");
+	text.add("The Arcanery likes your presence.");
+	text.add("What shall the Arcanery grant unto you?");
+	text.add("Life is always full of mysteries.");
+	text.add("Find what you seek on Tresdins Lair.");
+	text.add("Seek and you shall find.");
+	text.add("Everyone is a survivor from the cruel reality.");
+	text.add("The Arcanery loves your efforts.");
     }
 
     static ArrayList<String> welcome=new ArrayList<>();
     static {
-        welcome.add("Settings");
-        welcome.add("Bonjour.");
-        welcome.add("こんにちは.");
+        welcome.add("Hi!");
         welcome.add("Hello.");
-        welcome.add("Kamusta?");
-        welcome.add("Howdy?");
-        welcome.add("Привет.");
-        welcome.add("Hola.");
-        welcome.add("Halo.");
-        welcome.add("नमस्ते.");
-        welcome.add("안녕하세요.");
-        welcome.add("Ciao.");
-        welcome.add("你好.");
-        welcome.add("مرحبا.");
-        welcome.add("Hallo.");
+        welcome.add("Greetings.");
+        welcome.add("Settings");
     }
     
     @Override

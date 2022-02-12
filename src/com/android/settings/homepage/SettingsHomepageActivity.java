@@ -65,10 +65,10 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 	text.add("One's soul shreds uniqueness.");
         text.add("Calm down young one, catch your breath.");
         text.add("Roquelaire, would you like a cracker?");
-        text.add("Ah my little friend, always busy-busy.");
+        text.add("My little friend, always busy-busy.");
         text.add("Ho ho! You found me!");
         text.add("Welcome to the Secret Shop!");
-        text.add("Ah, some tea while you wait?");
+        text.add("Some tea while you wait?");
         text.add("Those go together nicely.");
         text.add("Plucked from the Arcanery.");
         text.add("Your ignorance ensured your demise.");
@@ -79,7 +79,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         text.add("Your foes will fear you now.");
         text.add("My favorite customer!");
         text.add("Business is brisk.");
-        text.add("Ahh, hows your journey little one?");
+        text.add("How is your journey little one?");
         text.add("Mistakes are always part of one's life, youngster.");
         text.add("Have a lucky day human!");
         text.add("You can do it Stranger!");
@@ -107,7 +107,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 	text.add("Another day to become a legend.");
 	text.add("In case no one told you this, you are awesome!");
 	text.add("My dear friend always busy, want some cookies?");
-	text.add("Uhmm Never Forget?");
+	text.add("Never Forget the Arcanery.");
 	text.add("Show em what you got stranger!");
 	text.add("The Arcanery likes your presence.");
 	text.add("What shall the Arcanery grant unto you?");
@@ -116,6 +116,10 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 	text.add("Seek and you shall find.");
 	text.add("Everyone is a survivor from the cruel reality.");
 	text.add("The Arcanery loves your efforts.");
+	text.add("Destiny awaits us all.");
+	text.add("From knowledge comes skill.");
+	text.add("What must be discovered?");
+	text.add("Even a master falters.");
     }
 
     static ArrayList<String> welcome=new ArrayList<>();
@@ -123,6 +127,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         welcome.add("Hi!");
         welcome.add("Hello.");
         welcome.add("Greetings.");
+        welcome.add("Good Day!");
         welcome.add("Settings");
     }
     

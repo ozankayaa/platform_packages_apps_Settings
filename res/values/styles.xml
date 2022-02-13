@@ -914,10 +914,10 @@
     </style>
 
     <style name="TextAppearance.HomepagePreferenceTitle" parent="@android:style/TextAppearance.DeviceDefault">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textSize">48sp</item>
+        <item name="android:textSize">40sp</item>
     </style>
 </resources>

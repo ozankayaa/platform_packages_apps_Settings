@@ -126,8 +126,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     static {
         welcome.add("Hi!");
         welcome.add("Hello.");
-        welcome.add("Greetings.");
-        welcome.add("Good Day!");
         welcome.add("Settings");
     }
     

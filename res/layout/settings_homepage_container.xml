@@ -68,18 +68,19 @@
             app:statusBarScrim="?android:attr/colorPrimary"
             app:expandedTitleMarginStart="24dp"
             app:collapsedTitleGravity="start|center_vertical"
-            app:expandedTitleGravity="start"
+            app:expandedTitleGravity="center"
             app:expandedTitleTextAppearance="@style/ExpandedAppBar"
-            app:layout_scrollFlags="exitUntilCollapsed|scroll">
+            app:layout_scrollFlags="exitUntilCollapsed|scroll|snap">
 
             <TextView
                 android:id="@+id/greeter"
-                android:layout_width="match_parent"
-                android:gravity="start"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:layout_marginTop="215dp"
-                android:layout_marginStart="24dp"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:layout_height="fill_parent"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="52dp"
+                android:layout_marginStart="0dp"
                 android:singleLine="true" />
 
         <Toolbar
@@ -87,7 +88,6 @@
                 android:layout_height="?android:attr/actionBarSize" />
         <LinearLayout
                 android:id="@+id/common_con"
-                android:background="@drawable/arcana_card"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|end"

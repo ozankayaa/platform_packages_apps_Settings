@@ -35,6 +35,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import java.util.ArrayList;
 
 import com.android.settings.preferences.PackageListPreference;
+import org.aospextended.support.preference.SystemSettingSeekBarPreference;
 
 public class GamingModeSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 

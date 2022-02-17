@@ -18,10 +18,13 @@ package com.android.settings.preferences.game;
 
 import com.android.internal.logging.nano.MetricsProto;
 
+import android.content.ContentResolver;
 import android.content.Context;
 import android.os.Bundle;
 import android.provider.Settings;
 
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 import androidx.preference.PreferenceScreen;
 
@@ -32,9 +35,12 @@ import java.util.ArrayList;
 
 import com.android.settings.preferences.PackageListPreference;
 
-public class GamingModeSettings extends SettingsPreferenceFragment {
+public class GamingModeSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private PackageListPreference mGamingPrefList;
+    private SwitchPreference mUseMenuSwitch;
+    private Preference mDanmaku;
+    private SystemSettingSeekBarPreference mOpacity;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -44,10 +50,36 @@ public class GamingModeSettings extends SettingsPreferenceFragment {
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
+        mUseMenuSwitch = (SwitchPreference) findPreference("gaming_mode_use_overlay_menu");
+        mDanmaku = (Preference) findPreference("gaming_mode_notification_danmaku");
+        mOpacity = (SystemSettingSeekBarPreference) findPreference("gaming_mode_menu_opacity");
+
+        boolean menuEnabled = Settings.System.getInt(getContentResolver(),
+                            Settings.System.GAMING_MODE_USE_OVERLAY_MENU, 1) == 1;
+        mUseMenuSwitch.setChecked(menuEnabled);
+        mUseMenuSwitch.setOnPreferenceChangeListener(this);
+
+        mDanmaku.setEnabled(menuEnabled);
+        mOpacity.setEnabled(menuEnabled);
+        
         mGamingPrefList = (PackageListPreference) findPreference("gaming_mode_app_list");
         mGamingPrefList.setRemovedListKey(Settings.System.GAMING_MODE_REMOVED_APP_LIST);
     }
 
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mUseMenuSwitch) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(resolver, Settings.System.GAMING_MODE_USE_OVERLAY_MENU,
+                    value ? 1 : 0);
+            mDanmaku.setEnabled(value);
+            mOpacity.setEnabled(value);
+            return true;
+        }
+        return false;
+    }
+    
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.EXTHMUI_SETTINGS;

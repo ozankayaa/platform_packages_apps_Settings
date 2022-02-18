@@ -338,6 +338,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
            android:action="android.intent.action.VIEW"
            android:data="https://github.com/soumyo19" />
      </Preference>
+     <Preference
+           android:title="@string/maintainer_25"
+           android:summary="@string/maintainer25_description"
+           android:icon="@drawable/ic_devs">
+     <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://github.com/ozankayaa" />
+     </Preference>
+     
 </PreferenceCategory>
 
 </PreferenceScreen>

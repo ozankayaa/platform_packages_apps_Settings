@@ -19,7 +19,7 @@
     <string name="arcana_version">Arcana manifestation</string>
     <string name="arcana_version_default">Unknown</string>
     <string name="keywords_arcana_version">arcana version, project version</string>
-    
+
     <!-- Arcana maintainer -->
     <string name="maintainer">Maintainer</string>
 
@@ -138,6 +138,8 @@
     <string name="maintainer23_description">Xiaomi POCO F3/Redmi K40/Mi 11X</string>
     <string name="maintainer_24">Soumyo &#40;Loves Only Peachu&#41;</string>
     <string name="maintainer24_description">Oneplus 8T/9R</string>   
+    <string name="maintainer_25">Ozan Kaya &#40;Realizeyes&#41;</string>
+    <string name="maintainer25_description">Xiaomi Mi10T/Pro</string>
 
     <string name="maintainers">The wizards of the Arcanery.</string>
     <string name="maintainers_title">Official maintainers</string>
@@ -200,11 +202,11 @@
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-    
+
     <!-- Fullscreen gestures -->
     <string name="fullscreen_gestures_title">Fullscreen gestures</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
-    
+
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
